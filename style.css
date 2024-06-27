@@ -72,7 +72,9 @@ input {
   border: 0px;
   padding: 0 24px;
   border: 1px solid orange;
-  margin: auto;
+  justify-content: space-around;
+  padding: left 100px;;
+  
 }
 
 main {
@@ -107,20 +109,17 @@ align-content:stretch ;
 
 
 
-/* .card-footer { */
-  /* font-size: 14px;  */
-  /* margin-top: 8px;  */
-  /* flex-wrap: wrap;
-}  */
+
 .card-footer p {  
-  margin: ; 
+ 
   text-align:left;
   flex-direction: column; 
+
 }
 
 .card-footer  {  
-   
-  
+   justify-content: space-between;
+  display: flex ;
 }
 
 
